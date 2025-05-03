@@ -6,9 +6,11 @@ namespace CQRS_4.Data
     {
         public EmployeeContext(DbContextOptions<EmployeeContext> options) : base(options)
         {
+
+            55
         }
 
-        public DbSet<Employees> Employees { get; set; }
+        public DbSet<Employees> Employees { get; set; }    
        
     }
 
